@@ -1,0 +1,55 @@
+// .navBar {
+//   display: flex;
+//   font-size: 28px;
+// }
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 16px;
+  padding: 0 16px;
+  width: 1260px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 16px;
+  gap: 383px;
+
+  position: relative;
+
+  height: 64px;
+
+  // width: 1200px;
+  // padding: 8px 0;
+  // margin-left: auto;
+  //
+  // border-radius: 4px;
+  // background-color: #e83eeb50;
+  // box-shadow: rgb(6 24 44 / 40%) -1px 2px 0px -1px,
+  //   rgb(6 24 44 / 65%) 0px 1px 2px -1px, rgb(255 255 255 / 8%) 0px 1px 0px inset;
+}
+
+.navList {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 24px;
+
+  :not(:last-child) {
+    margin-right: 80px;
+  }
+}
+
+.navItem {
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+
+  :not(:last-child) {
+    margin-right: 80px;
+  }
+}

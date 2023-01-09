@@ -1,0 +1,20 @@
+.logo {
+  display: flex;
+  align-items: center;
+  background-color: tomato;
+}
+
+.logo_text {
+  padding-left: 12px;
+  font-size: 14px;
+  line-height: 0.9;
+  background-color: greenyellow;
+}
+
+.logo_title {
+  font-size: 34px;
+  line-height: 0.8;
+}
+.logo_imgWrapper {
+  margin-right: 12px;
+}

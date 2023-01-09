@@ -1,5 +1,5 @@
 .container {
-  padding: 0 2rem;
+  padding: 0 16px;
 }
 
 .main {
@@ -14,11 +14,11 @@
 
 .footer {
   display: flex;
-  flex: 1;
-  padding: 2rem 0;
+  padding: 16px 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  background-color: #e83eeb33;
 }
 
 .footer a {
