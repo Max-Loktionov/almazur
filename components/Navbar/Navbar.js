@@ -1,28 +1,28 @@
 import Link from "next/link";
-import styles from "../styles/Navbar.module.scss";
+import styles from "./Navbar.module.scss";
 
 const Navbar = () => {
   return (
     <nav className={styles.navBar}>
-      <div className={styles.logo}>Logo</div>
       <ul className={styles.navList}>
-        {/* <li className={styles.navItem}>
+        <li className={styles.navItem}>
           <Link href="/">Домашня</Link>
-        </li> */}
-        <li className={styles.navItem}>
-          <Link href="/user">Моя сторінка</Link>
         </li>
         <li className={styles.navItem}>
-          <Link href="/coaches">Викладачі</Link>
-        </li>
-        <li className={styles.navItem}>
-          <Link href="/gallery">Галерея</Link>
+          <Link href="/contacts">Контакти</Link>
         </li>
         <li className={styles.navItem}>
           <Link href="/partners">Партнери</Link>
         </li>
         <li className={styles.navItem}>
-          <Link href="/contacts">Контакти</Link>
+          <Link href="/gallery">Галерея</Link>
+        </li>
+
+        <li className={styles.navItem}>
+          <Link href="/coaches">Викладачі</Link>
+        </li>
+        <li className={styles.navItem}>
+          <Link href="/user">Моя сторінка</Link>
         </li>
       </ul>
     </nav>

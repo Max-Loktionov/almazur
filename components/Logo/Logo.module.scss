@@ -1,14 +1,12 @@
 .logo {
   display: flex;
   align-items: center;
-  background-color: tomato;
 }
 
 .logo_text {
-  padding-left: 12px;
+  padding-left: 11px;
   font-size: 14px;
   line-height: 0.9;
-  background-color: greenyellow;
 }
 
 .logo_title {
@@ -17,4 +15,5 @@
 }
 .logo_imgWrapper {
   margin-right: 12px;
+  background-color: var(--light-accent-color);
 }

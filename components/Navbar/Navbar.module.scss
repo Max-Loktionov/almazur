@@ -1,22 +1,15 @@
 .navBar {
   display: flex;
+  align-self: stretch;
   font-size: 28px;
+  background-color: aqua;
 }
 
-.logo {
-  margin: 0 24px;
-  padding: 10px;
-}
 .navList {
   display: flex;
-  text-align: center;
-  align-items: center;
+  flex-direction: column-reverse;
+  align-self: stretch;
   justify-content: center;
-  margin-left: 24px;
-
-  :not(:last-child) {
-    margin-right: 80px;
-  }
 }
 
 .navItem {
