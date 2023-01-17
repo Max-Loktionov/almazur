@@ -11,15 +11,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* <main className={styles.main}> */}
       <h1 className={styles.title}>Welcome to AlmaZur!!!</h1>
 
       <p className={styles.description}>Here will be our app</p>
-      {/* </main> */}
-
-      {/* <footer className={styles.footer}>
-        <p>Created by xx in 2022</p>
-      </footer> */}
     </div>
   );
 }
