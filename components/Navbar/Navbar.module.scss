@@ -1,15 +1,23 @@
 .navBar {
   display: flex;
   align-self: stretch;
+  flex-direction: column;
+  justify-content: space-between;
   font-size: 28px;
-  background-color: aqua;
+  padding: 136px 16px 28px 16px;
+  border-radius: 0px 16px 16px 0px;
+  background: linear-gradient(
+    90deg,
+    rgba(216, 217, 216, 0.8) -24.87%,
+    rgba(216, 217, 216, 0) 89.85%
+  );
 }
 
 .navList {
   display: flex;
   flex-direction: column-reverse;
-  align-self: stretch;
-  justify-content: space-between;
+  align-self: flex-start;
+  gap: 16px;
 }
 
 .navItem {

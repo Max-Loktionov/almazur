@@ -1,30 +1,18 @@
-import Link from "next/link";
+import { useState } from "react";
 import styles from "./Navbar.module.scss";
+import NavbarLong from "./NavbarLong";
+import NavbarSet from "./NavbarSet";
+import NavbarShort from "./NavbarShort";
 
 const Navbar = () => {
+  const [isLong, setLong] = useState(false);
   return (
     <nav className={styles.navBar}>
-      <ul className={styles.navList}>
-        <li className={styles.navItem}>
-          <Link href="/">Домашня</Link>
-        </li>
-        <li className={styles.navItem}>
-          <Link href="/contacts">Контакти</Link>
-        </li>
-        <li className={styles.navItem}>
-          <Link href="/partners">Партнери</Link>
-        </li>
-        <li className={styles.navItem}>
-          <Link href="/gallery">Галерея</Link>
-        </li>
+      {isLong ? <NavbarLong /> : <NavbarShort />}
 
-        <li className={styles.navItem}>
-          <Link href="/coaches">Викладачі</Link>
-        </li>
-        <li className={styles.navItem}>
-          <Link href="/user">Моя сторінка</Link>
-        </li>
-      </ul>
+      <div className="styles.navSet">
+        <NavbarSet />
+      </div>
     </nav>
   );
 };
