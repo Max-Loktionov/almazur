@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.scss";
 const Header = () => {
   return (
     <footer className={styles.footer}>
-      <Heading tag="h3" text="Created by xx in 2023" />
+      <Heading tag="h3" text="Created by malannkas in 2023" />
     </footer>
   );
 };
