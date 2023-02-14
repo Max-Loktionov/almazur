@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   reactStrictMode: true,
   swcMinify: true,
-}
-
-module.exports = nextConfig
+  env: {
+    HOST_TYPE: process.env.HOST_TYPE,
+    PORT: process.env.PORT,
+    HOST: process.env.HOST,
+  },
+};

@@ -9,10 +9,10 @@ const Header = () => {
         <Logo></Logo>
         <ul className={styles.navList}>
           <li className={styles.navItem}>
-            <Link href="/user">Увійти</Link>
+            <Link href="/login">Увійти</Link>
           </li>
           <li className={styles.navItem}>
-            <Link href="/user">Реєстрація</Link>
+            <Link href="/signup">Реєстрація</Link>
           </li>
         </ul>
       </header>
