@@ -27,7 +27,7 @@ function Signup() {
   const googleAuth = () => {
     console.log("signup31 HOST :", HOST);
     const AUTH = `${HOST}/auth/google`;
-    // const AUTH = "http://localhost:8080";
+    // const AUTH = "http://localhost:8080/auth/google";
 
     window.open(AUTH, "_self");
   };
@@ -41,7 +41,7 @@ function Signup() {
           <input type="text" placeholder="Email"></input>
           <input type="password" placeholder="Password"></input>
           <br />
-          <button onClick={getUser}>Sign in</button>
+          <button onClick={getUser}>Sign up</button>
           <p className={styles.text}>or</p>
           <button className={styles.google_btn} onClick={googleAuth}>
             GGGGGG
